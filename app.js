@@ -23,8 +23,7 @@ document.getElementById("searchBtn").addEventListener('click',() =>{
           
         
     
-         
-
+    
 
                        //----------------------------FORECAST---------------------------
             const startDate = new Date(`${data.forecast.forecastday[0].date}`);
