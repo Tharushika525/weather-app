@@ -1,33 +1,21 @@
-#searchTxt{
-    background: transparent;
-
-}
-
-
-
-
-
 h1 {
-    color:white;
-    margin-left: 34%;
     font-size: 360%;
-   
-    
+
 }
 
 
-body{
+body {
     background-color: black;
-    font-family: "Outfit",sans-serif;
+    font-family: "Outfit", sans-serif;
     background: linar-gradient(rgba(0, 0, 0, 0.567), rgba(0, 0, 0, 0.7)), url('images/background.jpg');
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position:center;
-    overflow-x:hidden;
- 
+    background-position: center;
+    overflow-x: hidden;
+
 }
 
-.container{
+.container {
     width: 700px;
     min-height: 10px;
     padding: 3%;
@@ -36,28 +24,28 @@ body{
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content:center;
-    
+    justify-content: center;
 
-    
-    
+
+
+
 }
 
-.search-bar{
+.search-bar {
     width: 600%;
     max-width: 700px;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.2);
     display: flex;
     align-items: center;
     border-radius: 60px;
     padding: 5px 20px;
-    margin-right: 10%;
+    margin-right: 4%;
     backdrop-filter: blur(4px) saturate(180%);
-    
-    
+
+
 }
 
-.search-bar input{
+.search-bar input {
     background: transparent;
     flex: 1;
     border: 0;
@@ -67,16 +55,17 @@ body{
     color: #cac7ff;
 }
 
-::placeholder{
+::placeholder {
     color: rgb(6, 6, 6);
 }
 
-.search-bar button img{
+.search-bar button img {
     width: 25px;
-    
+
 
 }
-.search-bar button{
+
+.search-bar button {
     border: 0;
     border-radius: 50%;
     width: 40px;
@@ -87,59 +76,73 @@ body{
     background-color: rgb(155, 150, 155);
 
 }
-.img{
+
+.img {
     margin-left: 30%;
 }
 
 
 
-.card-body:hover{
+.card-body:hover {
     transform: scale(1.05);
 }
-.crd{
+
+.crd {
     background: linear-gradient(rgba(90, 160, 221, 0.567), rgba(0, 0, 0, 0.7));
     margin-left: 70px;
-    border-radius: 5% ;
+    border-radius: 5%;
 }
 
-.crd1{
+.crd1 {
     background: linear-gradient(rgb(92, 156, 187), rgba(202, 220, 234, 0.7));
     border-radius: 10%;
     height: 400px;
     width: 300px;
     margin-left: 40%;
-    
-   
+
 }
-.crd2{
-   
+
+.card-body1 {
+    margin: 5px;
+    padding: 20px;
+    margin-left: 80px;
+
+}
+
+
+.crd2 {
+
     background-color: white;
 }
-.card{
+
+.card {
     background: linear-gradient(rgba(90, 160, 221, 0.567), rgba(0, 0, 0, 0.7));
 
 }
-.crd4{
+
+.crd4 {
     height: 100%;
     width: 100%;
     background: linear-gradient(rgba(90, 160, 221, 0.567), rgba(0, 0, 0, 0.7));
 
 }
 
-.footer{
-   padding: 40px 0;
-   background-color: black;
+.footer {
+    padding: 40px 0;
+    background-color: black;
 }
-.footer .social{
+
+.footer .social {
     text-align: center;
     padding-bottom: 25px;
     color: rgb(35, 164, 244);
-    
+
 }
-.footer a i{
+
+.footer a i {
     font-size: 24px;
     color: inherit;
-    border: 1px solid white ;
+    border: 1px solid white;
     width: 40px;
     height: 40px;
     line-height: 38px;
@@ -150,33 +153,37 @@ body{
     opacity: 0.75;
 
 }
-.footer a:hover{
+
+.footer a:hover {
     opacity: 0.9;
 }
-.footer ul{
-    margin-top:0 ;
+
+.footer ul {
+    margin-top: 0;
     padding: 0;
     list-style: none;
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 0;
 }
-.footer ul a{
+
+.footer ul a {
     color: white;
     text-decoration: none;
     opacity: 0.8;
-    
+
 }
-.footer ul li{
+
+.footer ul li {
     display: inline-block;
-    padding:  5px;
+    padding: 5px;
     margin-left: 13%;
 
 }
 
 
-@media screen and (max-width: 768px){
-   .search-bar{
-    flex-direction: column;
-   } 
+@media screen and (max-width: 768px) {
+    .search-bar {
+        flex-direction: column;
+    }
 }
